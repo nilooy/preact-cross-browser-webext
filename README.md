@@ -3,6 +3,7 @@
     <h2>Preact Cross Browser Web extension</h2>
 </div>
 
+> Firefox support HMR in development but chrome has auto-reload(hmr is blocked for content security policy)
 
 
 ### Tools
@@ -28,9 +29,13 @@ yarn dev:chrome
 ```
 
 ### Build all for prod
+```sh
 yarn prod
+```
 
 ### Release
 ```sh
 release
 ```
+
+check package.json for more commands
