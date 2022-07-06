@@ -13,6 +13,8 @@
 4. 🎨 Web-ext polyfill (Cross browser api)
 5. 🎨 release-it
 
+### src/manifest.ts > will generate manifest v2 for firefox and v3 for chrome, add your necessary configs there in manifest.ts file.
+
 ### Install
 ```sh
 yarn
